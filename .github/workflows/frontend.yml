@@ -27,9 +27,9 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v3
         with:
-          context: .
+          context: ./
           file: ./dockerfile.v1
           push: true
           tags: |
-            spg51/lab:ghfrontend1
+            awrzesniewska/lab:ghfrontend1
           
